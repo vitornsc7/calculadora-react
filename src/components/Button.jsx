@@ -36,7 +36,7 @@ const Button = (props) => {
         ${
           isSpecialChar
             ? "bg-orange-400/50 text-white hover:bg-orange-500/50 active:bg-orange-600/50 max-w-15"
-            : "bg-stone-700 text-stone-300 hover:bg-stone-600 active:bg-stone-800"
+            : "bg-stone-700 text-stone-300 hover:bg-stone-600 active:bg-stone-700"
         }`}
     >
       {props.digit}
